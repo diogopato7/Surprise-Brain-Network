@@ -8,7 +8,7 @@ pre_processing.m
       • Removes artifacts with ICA
 
 feature_extraction_functional_connectivity.m
-
+      
       • Extracts relative PSD values
       • Applies the Kolmogorov-Smirnov test to find data distribution
       • Applies the Kruscal-Wallis test to find the significant EEG channels and frequency bands
@@ -16,7 +16,7 @@ feature_extraction_functional_connectivity.m
 
 findDataDistribution.m
 
-  • Applies the Kolmogorov-Smirnov test to find data distribution
+      • Applies the Kolmogorov-Smirnov test to find data distribution
 
 findSignificantConnections.m
 
