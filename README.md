@@ -3,31 +3,31 @@ These MATLAB scripts concern the preprocessing, feature extraction and functiona
 
 pre_processing.m
 
-• Removes excess data (time instants of recordings before and after the VR video presentation)
+  • Removes excess data (time instants of recordings before and after the VR video presentation)
 
-• Applies filters to the EEG data (bandpass and notch filters)
+  • Applies filters to the EEG data (bandpass and notch filters)
 
-• Removes artifacts with ICA
+  • Removes artifacts with ICA
 
 feature_extraction_functional_connectivity.m
 
-• Extracts relative PSD values
+  • Extracts relative PSD values
 
-• Applies the Kolmogorov-Smirnov test to find data distribution
+  • Applies the Kolmogorov-Smirnov test to find data distribution
 
-• Applies the Kruscal-Wallis test to find the significant EEG channels and frequency bands
+  • Applies the Kruscal-Wallis test to find the significant EEG channels and frequency bands
 
-• Calculates the functional connectivity (COH, iCOH, wPLI and MPC) between the significant EEG channels (NOTE: DTF is calculated through the eConnectome MATLAB toolbox)
+  • Calculates the functional connectivity (COH, iCOH, wPLI and MPC) between the significant EEG channels (NOTE: DTF is calculated through the eConnectome MATLAB toolbox)
 
 findDataDistribution.m
 
-• Applies the Kolmogorov-Smirnov test to find data distribution
+  • Applies the Kolmogorov-Smirnov test to find data distribution
 
 findSignificantConnections.m
 
-• Applies the Kruscal-Wallis test to find the significant EEG channels connections
+  • Applies the Kruscal-Wallis test to find the significant EEG channels connections
 
-• If wanted, performs a multiple comparation correction to the p-values obtained from the Kruscal-Wallis test
+  • If wanted, performs a multiple comparation correction to the p-values obtained from the Kruscal-Wallis test
 
 findHigherConnectivityConnections.m
 
