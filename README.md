@@ -3,7 +3,7 @@ These MATLAB scripts concern the preprocessing, feature extraction and functiona
 
 pre_processing.m
 
-   • Removes excess data (time instants of recordings before and after the VR video presentation)
+   - Removes excess data (time instants of recordings before and after the VR video presentation)
 
    • Applies filters to the EEG data (bandpass and notch filters)
 
