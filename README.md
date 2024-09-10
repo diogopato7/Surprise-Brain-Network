@@ -6,8 +6,12 @@ pre_processing.m
    - Removes excess data (time instants of recordings before and after the VR video presentation)
 
    - Applies filters to the EEG data (bandpass and notch filters)
+     
+   - Applies the Pan-Tompkins Algorithm to the ECG data
 
-   - Removes artifacts with ICA
+   - Calculates temporal and spectral features from the ECG data
+
+   - Removes artifacts from the EEG data with ICA
 
 feature_extraction_functional_connectivity.m
 
