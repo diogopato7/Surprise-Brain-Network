@@ -1,4 +1,4 @@
-# Surprise with Material Destruction Brain Network
+# Surprise Brain Network
 These MATLAB scripts concern the preprocessing, feature extraction and functional connectivity of EEG and ECG data acquired during the visualization of an unexpected visual stimuli implemented in VR. Below is a brief description of each of the scripts.
 
 pre_processing.m
